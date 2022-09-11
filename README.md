@@ -9,3 +9,5 @@ If you want to See or Copy the password to clipboard, you can press 'show passwo
 press 'Select Folder' and that is.
 5. a text(.txt) File will be created inside the Save Location that you selected with File's Name that you typed. Inside the file will be the
 info that you provided in the form.
+
+🔴 On Linux just remove the remove the line 78 -> window.iconbitmap("register-icon.ico")
