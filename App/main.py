@@ -5,12 +5,14 @@ import random
 import os
 from sys import platform
 
-
+# creates a number sequence from 1 to 30 and saves them to a list
+# then returns the list filled with numbers
 def generate_30_num_list():
     num_list = [i for i in range(1, 31, 1)]
     return num_list
 
 
+# creates the random password
 def generate_random_password():
     random_password = ""
     all_characters = string.printable.replace("", "").replace('"', '').strip()
@@ -24,6 +26,7 @@ def generate_random_password():
     password_entry.insert(END, random_password_fixed)
 
 
+# throw's the pop up window to select save location
 def select_save_location():
     desktop = ""
     if platform == "linux" or platform == "linux2":
@@ -37,6 +40,7 @@ def select_save_location():
         return save_location
 
 
+# writes the user typed info to the text file and throw's a 'Registered Successfully' message
 def write_text_to_file_and_save():
     save_location = select_save_location()
     if save_location:
@@ -52,11 +56,11 @@ def write_text_to_file_and_save():
             file.close()
             messagebox.showinfo(title="Successful", message="Registered Successfully")
 
-
+# starts the 'write_text_to_file_and_save' function 
 def register():
     write_text_to_file_and_save()
 
-
+# copy's the current typed password to the clipboard
 def copy_password():
     r = Tk()
     r.withdraw()
@@ -64,7 +68,7 @@ def copy_password():
     r.clipboard_append(str(password_entry.get()))
     r.destroy()
 
-
+# show's the current typed or generated password
 def show_password():
     if var1.get() == 0:
         password_entry.config(show="*")
