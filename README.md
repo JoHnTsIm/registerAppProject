@@ -13,3 +13,5 @@ info that you provided in the form.
 🔴 On Linux just remove the remove the line 78 -> window.iconbitmap("register-icon.ico")
 
 🔴 On Random Generated Passwords, sometimes the password will have space or spaces on the start, on the end or between, the spaces will be replaced with '(space)' .
+
+![Capture](https://user-images.githubusercontent.com/84143748/189614321-220bf85e-ddb9-43ac-aeac-1d02ff990003.JPG)
