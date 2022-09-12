@@ -10,7 +10,7 @@ press 'Select Folder' and that is.
 5. a text(.txt) File will be created inside the Save Location that you selected with File's Name that you typed. Inside the file will be the
 info that you provided in the form.
 
-🔴 On Linux just remove the remove the line 78 -> window.iconbitmap("register-icon.ico")
+🔴 On Linux just remove the remove the line 82 -> window.iconbitmap("register-icon.ico")
 
 🔴 On Random Generated Passwords, sometimes the password will have space or spaces on the start, on the end or between, the spaces will be replaced with '(space)' .
 
