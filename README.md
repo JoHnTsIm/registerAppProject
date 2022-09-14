@@ -14,4 +14,4 @@ info that you provided in the form.
 
 🔴 On Random Generated Passwords, sometimes the password will have space or spaces on the start, on the end or between, the spaces will be replaced with '(space)' .
 
-![Capture](https://user-images.githubusercontent.com/84143748/189614321-220bf85e-ddb9-43ac-aeac-1d02ff990003.JPG)
+![image](https://user-images.githubusercontent.com/84143748/190260005-cb81f9ac-ccfc-4032-bec8-8f0ba740a284.png)
